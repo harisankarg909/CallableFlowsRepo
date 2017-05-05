@@ -12,7 +12,7 @@
       <nodes xmi:type="ComIbmCallableFlowReply.msgnode:FCMComposite_1" xmi:id="FCMComposite_1_2" location="527,20">
         <translation xmi:type="utility:ConstantString" string="CallableReply"/>
       </nodes>
-      <nodes xmi:type="ComIbmMSLMapping.msgnode:FCMComposite_1" xmi:id="FCMComposite_1_3" location="186,20" mappingExpression="msl://{default}#timestampJustTime_Mapping">
+      <nodes xmi:type="ComIbmMSLMapping.msgnode:FCMComposite_1" xmi:id="FCMComposite_1_3" location="187,39" mappingExpression="msl://{default}#timestampJustTime_Mapping">
         <translation xmi:type="utility:ConstantString" string="Update JSON body with alternate timestamp"/>
       </nodes>
       <connections xmi:type="eflow:FCMConnection" xmi:id="FCMConnection_2" targetNode="FCMComposite_1_3" sourceNode="FCMComposite_1_1" sourceTerminalName="OutTerminal.out" targetTerminalName="InTerminal.in"/>
